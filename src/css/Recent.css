@@ -1,0 +1,19 @@
+.recent{
+    margin-top: 10%;
+}
+
+.recent-text{
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+    font-size: 300%;
+    margin-bottom: 2.5%;
+}
+
+.card{
+    margin: 0 auto; 
+    float: none;
+    font-family: 'Baloo 2', cursive;
+    margin-bottom: 20%;
+}

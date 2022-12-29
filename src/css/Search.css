@@ -1,0 +1,18 @@
+.form-control{
+    font-family: 'Baloo 2', cursive;
+    width: 40%;
+    margin-left: 75%;
+    margin-bottom: 30%;
+}
+
+.btn{
+    margin-left: 12%;
+    margin-bottom: 35%;
+    background-color: #DFEBE9;
+    color: black;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #BCCFCA;
+}

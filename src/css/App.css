@@ -1,0 +1,10 @@
+.app{
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+}
+
+.main{
+  background-image: url("../Images/img.png");
+  background-repeat: no-repeat;
+}
