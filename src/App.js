@@ -2,7 +2,9 @@ import './css/App.css';
 import './css/Navbar.css';
 import './css/Search.css';
 import './css/Recent.css';
-import './css/Videos.css';
+import './css/Video.css';
+import './css/Footer.css';
+import "./css/video-react.css"; 
 import Dashboard from './Pages/Dashboard';
 
 

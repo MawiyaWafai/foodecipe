@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer";
 import Navigation from "../Components/Navigation";
 import Recent from "../Components/Recent";
 import Search from "../Components/Search";
@@ -10,6 +11,7 @@ const Dashboard = () => {
             <Search/>
             <Recent/>
             <Videos/>
+            <Footer/>
         </div>
      );
 }

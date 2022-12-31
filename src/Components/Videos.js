@@ -1,25 +1,32 @@
 import React from 'react';
 import { Player } from 'video-react';
-import 'video.js/dist/video-js.css';
+
 
 const Videos = () => {
     return ( 
-        <div className="row">
-            <div className="col">
-                <Player>
-                    <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
-                </Player>
+        <div className="row" style={{marginBottom:"5%",}}>
+            <div className="col-8">
+                <Player
+                    className="vid"
+                    playsInline
+                    poster="/assets/poster.png"
+                    src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                />
             </div>
             <div className="col">
-                <div className="row">
-                <Player>
-                    <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
-                </Player>
+                <div className="row vid1" style={{marginBottom: "17%",}}>
+                    <Player
+                        playsInline
+                        poster="/assets/poster.png"
+                        src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                    />
                 </div>
-                <div className="row">
-                <Player>
-                    <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
-                </Player>
+                <div className="row vid1" style={{marginTop: "10%",}}>
+                    <Player
+                        playsInline
+                        poster="/assets/poster.png"
+                        src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                    />
                 </div>
             </div>
         </div>
