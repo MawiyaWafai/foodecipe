@@ -6,7 +6,7 @@ import Videos from "../Components/Videos";
 
 const Dashboard = () => {
     return ( 
-        <div>
+        <div id="top">
             <Navigation/>
             <Search/>
             <Recent/>

@@ -7,7 +7,7 @@ import LIMG from '../Images/LIMG.png';
 
 const Recent = () => {
     return ( 
-        <div className='recent'>
+        <div className='recent' id="recent">
             <p className='recent-text'>Recent Recipes!</p>
             <div className='row'>
                 <div className='col'>

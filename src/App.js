@@ -4,7 +4,7 @@ import './css/Search.css';
 import './css/Recent.css';
 import './css/Video.css';
 import './css/Footer.css';
-import "./css/video-react.css"; 
+import "./css/video-react.css";
 import Dashboard from './Pages/Dashboard';
 
 

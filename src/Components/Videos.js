@@ -4,7 +4,7 @@ import { Player } from 'video-react';
 
 const Videos = () => {
     return ( 
-        <div className="row" style={{marginBottom:"5%",}}>
+        <div className="row" id="video" style={{marginBottom:"5%",}}>
             <div className="col-8">
                 <Player
                     className="vid"

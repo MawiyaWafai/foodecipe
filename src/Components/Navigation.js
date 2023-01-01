@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useState, useEffect } from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Navigation = () => {
     const [navSize, setnavSize] = useState("10rem");
@@ -19,14 +20,14 @@ const Navigation = () => {
         };
     }, []);
     return ( 
-        <div className='navbar'>
+        <div className='navbar' id="naviagtion">
             <Navbar style={{backgroundColor: navColor, height: navSize, transition: "all 1s"}} variant="dark" scrolling dark expand="md" fixed="top" >
             <Container>
-            <Navbar.Brand href="#home">foodecipe</Navbar.Brand>
+            <Navbar.Brand href="#top">foodecipe</Navbar.Brand>
             <Nav className="me-auto">
-                <Nav.Link style={{color: navText}} href="#home">Home</Nav.Link>
-                <Nav.Link style={{color: navText}} href="#pricing">Recent!</Nav.Link>
-                <Nav.Link style={{color: navText}} href="#pricing">Videos</Nav.Link>
+                <Nav.Link style={{color: navText}} href="/"><AnchorLink href='#top' className='word'>Home</AnchorLink></Nav.Link>
+                <Nav.Link style={{color: navText}} href="/Recent"><AnchorLink href='#recent' className='word'>Recent!</AnchorLink></Nav.Link>
+                <Nav.Link style={{color: navText}} href="/Videos"><AnchorLink href='#video' className='word'>Videos</AnchorLink></Nav.Link>
             </Nav>
             </Container>
         </Navbar>

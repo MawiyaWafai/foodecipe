@@ -3,7 +3,7 @@ import { BiSearchAlt } from 'react-icons/bi';
 
 const Search = () => {
     return ( 
-        <div className="row search">
+        <div className="row search" id="search">
             <div className="col-6">
                 <input type="text" className="form-control" placeholder="Search here"/>
             </div> 
