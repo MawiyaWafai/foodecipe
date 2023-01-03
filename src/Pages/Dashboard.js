@@ -7,8 +7,10 @@ import Videos from "../Components/Videos";
 const Dashboard = () => {
     return ( 
         <div id="top">
-            <Navigation/>
-            <Search/>
+            <div className='main'>
+                <Navigation/>
+                <Search/>
+            </div>
             <Recent/>
             <Videos/>
             <Footer/>

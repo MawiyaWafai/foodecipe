@@ -1,0 +1,78 @@
+.recipe-main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.421), rgba(0, 0, 0, 0.289)), url("../Images/FIMG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.anchor{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: 'mistral';
+    font-size: 300%;
+    background-color: transparent;
+}
+
+.anchor:hover{
+    color: white;
+    background-color: transparent;
+    text-align: center;
+}
+
+.title{
+    text-align: right;
+    padding-top: 10%;
+    margin-bottom: 2%;
+    color:white;
+    margin-right: 5%;
+    font-family: 'Baloo 2', cursive;
+    font-size: 320%;
+    font-weight: bolder;
+}
+
+.title1{
+    text-align: right;
+    padding-top: 10%;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    margin-bottom: 130%;
+    font-weight: bold;
+}
+
+.info{
+    margin-left: 60%;
+}
+
+.logo{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.tab{
+    margin-top: -2.8%;
+    text-align: center;
+    border-bottom: 5%;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Baloo 2', cursive;
+}
+
+.list{
+    font-family: 'Baloo 2', cursive;
+    list-style: none;
+    margin-top: 5%;
+    font-size: large;
+    margin-bottom: 8%;
+}
+
+.list1{
+    font-family: 'Baloo 2', cursive;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: large;
+    margin-bottom: 8%;
+}
