@@ -1,7 +1,20 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import React from 'react';
+import { useChecklist } from 'react-checklist';
 
 const TB = () => {
+  const data = [
+    { _id: 1, label: '6 Fun size hershey bars or reeses' },
+    { _id: 2, label: 'Peanut butter cups' },
+    { _id: 3, label: '6 Smores mallows' },
+  ]
+
+  const { handleCheck, isCheckedAll, checkedItems } = useChecklist(data, {
+    key: '_id',
+    keyType: 'number',
+  });
+  
     return ( 
       <Tabs>
         <TabList className="tab">
@@ -10,9 +23,18 @@ const TB = () => {
         </TabList>
         <TabPanel>
           <ul className='list'>
-            <li>6 Fun size hershey bars or reese's</li>
-            <li>Peanut butter cups</li>
-            <li>6 S'mores mallows</li>
+          {data.map((v, i) => (
+            <li key={i}>
+              <input
+                type="checkbox"
+                data-key={v._id}                  // 3
+                onChange={handleCheck}            // 4
+                checked={checkedItems.has(v._id)} // 5
+                style={{marginRight: "0.75%"}}
+              />
+              <label>{v.label}</label>
+            </li>
+          ))}
           </ul>
         </TabPanel>
         <TabPanel>
